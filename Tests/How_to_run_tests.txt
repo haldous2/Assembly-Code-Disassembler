@@ -1,0 +1,14 @@
+1. Generate source code test.X68 -> test.S68 (source code)
+
+2. Run disassembler main.X68
+
+3. Easy68K: File->Open Data 
+            Choose test.S68 ( or whatever test )
+
+4. Find where file was loaded into memory
+   Note: this is defined in the X68 test file @ Origin = these tests start at 9000
+
+5. Easy68K: Run->Log Start 
+   Note: turn on logging Options->Log Output
+
+6. Execute main program - enter start and end address field where test is loaded
